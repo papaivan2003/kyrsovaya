@@ -103,7 +103,7 @@ def display_triads(text_widget, triads):
 
 # Интерфейс tkinter
 root = tk.Tk()
-root.title("Генерация и оптимизация Вершинин ИС-42")
+root.title("Генерация и оптимизация")
 root.geometry("1200x700")
 
 # Основной интерфейс с вкладками
@@ -185,4 +185,5 @@ triads_cleaned_text.pack(padx=5, pady=5)
 
 
 # Запуск интерфейса
+
 root.mainloop()
